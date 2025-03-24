@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="milesss">
+      <UniqueIdentifier>{5861f943-e66d-4d9a-ab12-246ebf5de58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="milesss\src">
+      <UniqueIdentifier>{61cedd85-abd4-40e8-863f-b4a3a379219a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\mssMain.c">
+      <Filter>milesss\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mssMixer.c">
+      <Filter>milesss\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mssSample.c">
+      <Filter>milesss\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mssStream.c">
+      <Filter>milesss\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\mssDefs.h">
+      <Filter>milesss\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mssMain.h">
+      <Filter>milesss\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mssMixer.h">
+      <Filter>milesss\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mssSample.h">
+      <Filter>milesss\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mssStream.h">
+      <Filter>milesss\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
